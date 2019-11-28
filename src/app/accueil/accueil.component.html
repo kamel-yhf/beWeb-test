@@ -1,8 +1,8 @@
 <div class="container mt-5">
   <div class="row text-center">
     <div class="col-12">
-      <button mat-fab aria-label="Example icon-button with a heart icon" (click)="hide()">
-        <mat-icon>favorite</mat-icon>
+      <button mat-fab aria-label="Example icon-button with a heart icon " color="primary"(click)="hide()">
+        <mat-icon >favorite</mat-icon>
       </button>
     </div>
     <div class="col-6">OUH YEAH!</div>
@@ -11,11 +11,11 @@
       <ol>
         <li>
           <mat-form-field>
-            <input matInput [(ngModel)]="name" placeholder="What's your name?">
+            <input matInput [(ngModel)]="name" placeholder="Entrez votres PRENOM?">
           </mat-form-field>
         </li>
         <li>
-          <button mat-raised-button (click)="openDialog()">Pick one</button>
+          <button mat-raised-button (click)="openDialog()">Click</button>
         </li>
         <li *ngIf="animal">
           You chose: <i>{{animal}}</i>
